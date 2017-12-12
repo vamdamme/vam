@@ -198,9 +198,9 @@ def bot(op):
                         Ti = cl.reissueGroupTicket(op.param1)
 
         if op.type == 13:
-            print op.param1
-            print op.param2
-            print op.param3
+            print (op.param1)
+            print (op.param2)
+            print (op.param3)
             if mid in op.param3:
                 G = cl.getGroup(op.param1)
                 if wait["autoJoin"] == True:
